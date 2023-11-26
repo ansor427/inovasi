@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Blog</title>
+  <link rel="stylesheet" href="/asets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CRUD Blog</h1>
+
+    <form id="blogForm">
+      <label for="title">Judul:</label>
+      <input type="text" id="title" required>
+
+      <label for="content">Isi:</label>
+      <textarea id="content" required></textarea>
+
+      <button type="button" onclick="addBlog()">Tambah Blog</button>
+    </form>
+
+    <div id="blogList"></div>
+  </div>
+
+  <script src="/asets/js/script.js"></script>
+</body>
+</html>
